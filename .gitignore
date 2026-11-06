@@ -1,0 +1,6 @@
+target/
+.idea/
+.vscode/
+*.iml
+src/test/resources/config.properties
+screenshots/*.png
