@@ -3,4 +3,3 @@ target/
 .vscode/
 *.iml
 src/test/resources/config.properties
-screenshots/*.png
