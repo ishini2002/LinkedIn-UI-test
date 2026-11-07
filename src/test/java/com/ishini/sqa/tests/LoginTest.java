@@ -24,6 +24,7 @@ public class LoginTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.open();
         loginPage.login(Config.username(), "WrongPassword@123");
+        loginPage.waitForManualCheckpointToClear();
 
         Assert.assertTrue(loginPage.isErrorDisplayed(), "No error message was shown");
         Assert.assertFalse(driver.getCurrentUrl().contains("/feed"), "User should not reach the feed");
