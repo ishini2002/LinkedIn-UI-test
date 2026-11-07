@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LinkedIn UI Suite">
+  <test name="Core Flows">
+    <classes>
+      <class name="com.ishini.sqa.tests.LoginTest"/>
+      <class name="com.ishini.sqa.tests.SearchTest"/>
+      <class name="com.ishini.sqa.tests.SearchResultTest"/>
+    </classes>
+  </test>
+</suite>
